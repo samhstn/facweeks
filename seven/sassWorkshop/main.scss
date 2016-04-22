@@ -1,0 +1,42 @@
+@import 'colors';
+
+.button:hover {
+  filter: alpha(opacity=30);
+  opacity: 0.6;
+  @include transition (all 0.3s ease);
+}
+
+body {
+    background-color: red;
+}
+
+.nav {
+    li {
+        display: none;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+
+.warning {
+  @extend .message;
+  border-color: yellow;
+}

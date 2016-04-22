@@ -1,0 +1,5 @@
+Equal
+deepEqual
+Expect
+Equivalent of not…
+Ok

@@ -1,0 +1,35 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+video {
+  display: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  font-size: 20px;
+  line-height: 30px;
+  border-bottom: 1px solid #ccc;
+}
+li:last-child {
+  border: none;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 800px;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+i {
+  font-size: 25px;
+  color: blue;
+}

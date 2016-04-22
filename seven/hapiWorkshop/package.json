@@ -1,0 +1,17 @@
+{
+  "name": "hapiworkshop",
+  "version": "1.0.0",
+  "description": "hapijs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0",
+    "vision": "^4.0.1"
+  }
+}

@@ -1,0 +1,9 @@
+$main-color: #F4F4F4;
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+       -o-transition: $transition;
+      -ms-transition: $transition;
+          transition: $transition;
+}

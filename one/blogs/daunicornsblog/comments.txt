@@ -1,0 +1,17 @@
+README is Nice and concise
+
+Very cool design and cool colours
+
+In the README, I think you should have included how you were going to accomplish your what. I think you should include a breakdown of what pages you will have and information about them, how they will be played out, etc
+
+Maybe consider having just one css file since they are all in the same file path, and it is confusing to read more than one
+
+Should have class=“bouh” because it’s bad practice to to have more than one id tag.
+
+Also all bouh’s have the same unique class, so this could be tidied up
+
+What is the point of the function slide()?
+
+It is unclear what you are trying to do in blog.js, perhaps consider having notes next to each function explaining what it does
+
+Blog posts should link to top of page, instead of reloading to index.html

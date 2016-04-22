@@ -1,0 +1,32 @@
+.button:hover {
+  filter: alpha(opacity=30);
+  opacity: 0.6;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+body {
+  background-color: red; }
+
+.nav li {
+  display: none; }
+.nav p {
+  color: white; }
+
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.warning {
+  border-color: yellow; }
+
+/*# sourceMappingURL=main.css.map */

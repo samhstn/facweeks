@@ -1,0 +1,25 @@
+{
+  "name": "learn-node-sam-yes",
+  "version": "1.0.0",
+  "description": "this is a brief tuto on node and settin gup a server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tutorial"
+  },
+  "keywords": [
+    "tutorial"
+  ],
+  "author": "sam",
+  "license": "ISC",
+  "dependencies": {
+    "env2": "^2.0.4"
+  },
+  "devDependencies": {
+    "shot": "^3.0.0",
+    "tape": "^4.4.0"
+  }
+}
